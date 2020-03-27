@@ -1,6 +1,6 @@
 # Site settings
 title: "Joel Medeiros"
-email: joel@phpsp.org.br
+email: "jooelmedeiros+blog@gmail.com"
 description: "A passionate about innovation, technology and agile teams that seeks to learn everyday how technology could impact people lives."
 baseurl: ""
 url: "http://joelmedeiros.github.io"
@@ -23,8 +23,8 @@ xing_link:
 facebook_link:
 
 # Footer
-footer_left: "Footer left"
-footer_right: "Footer Right"
+footer_left:
+footer_right:
 
 # Build settings
 markdown: kramdown
