@@ -14,13 +14,8 @@ post_limit: 5
 # Social usernames/URLs
 twitter_username: _joelmedeiros
 github_username:  joelmedeiros
-instagram_username: 
-reddit_username: 
 linkedin_link: http://linkedin.com/in/joelmedeiros
-google_plus_link:
-stackoverflow_link:
-xing_link:
-facebook_link:
+speaker_deck: joelmedeiros
 
 # Footer
 footer_left:
