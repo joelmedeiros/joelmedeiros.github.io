@@ -1,15 +1,15 @@
 # Site settings
 title: "Joel Medeiros"
 email: joel@phpsp.org.br
-description: "My personal blog"
+description: "A passionate about innovation, technology and agile teams that seeks to learn everyday how technology could impact people lives."
 baseurl: ""
 url: "http://joelmedeiros.github.io"
-title_description: "My personal blog"
-title_image:
+title_description: "A passionate about innovation, technology and agile teams that seeks to learn everyday how technology could impact people lives."
+title_image: "https://www.gravatar.com/avatar/96993a1727148b81021e029851f52029?s=500&d=mm"
 google_analytics:
-disqus_account: cartenoire
-github_repository: https://github.com/joelmedeiros/joelmedeiros.github.io
-addthis_id: ra-513c6fa83da6ec67
+disqus_account:
+github_repository: https://github.com/joelmedeiros
+addthis_id:
 post_limit: 5
 
 # Social usernames/URLs
