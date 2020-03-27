@@ -1,0 +1,38 @@
+# Site settings
+title: "Joel Medeiros"
+email: joel@phpsp.org.br
+description: "My personal blog"
+baseurl: ""
+url: "http://joelmedeiros.github.io"
+title_description: "My personal blog"
+title_image:
+google_analytics:
+disqus_account: cartenoire
+github_repository: https://github.com/joelmedeiros/joelmedeiros.github.io
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: _joelmedeiros
+github_username:  joelmedeiros
+instagram_username: 
+reddit_username: 
+linkedin_link: http://linkedin.com/in/joelmedeiros
+google_plus_link:
+stackoverflow_link:
+xing_link:
+facebook_link:
+
+# Footer
+footer_left: "Footer left"
+footer_right: "Footer Right"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
