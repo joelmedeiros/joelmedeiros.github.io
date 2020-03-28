@@ -900,3 +900,15 @@ td{
     padding: 2px;
     border:1px solid $dark-blue;;
 }
+
+figure a img {
+	padding: 0px !important;
+}
+
+figcaption {
+	text-align: center;
+    left: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666665;
+}
