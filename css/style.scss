@@ -110,12 +110,16 @@ ul {
 	}
 }
 
+.menu-header {
+	position: fixed;
+    top: 15px;
+    width: 200px;
+    left: 45%;
+}
+
 .menu-button {
 	color: $white;
 	font-size: 24px;
-	position: fixed;
-	top: 10px;
-	left: 20px;
 	cursor: pointer;
 	line-height: 1em;
 	padding: 10px;
@@ -125,6 +129,19 @@ ul {
 		top: 20px;
 		left: 40px;
 	}
+}
+.menu-title {
+	font-family: 'Montserrat', sans-serif;;
+	color: $white;
+	font-size: 24px;
+	cursor: pointer;
+	line-height: 1em;
+	padding: 10px;
+	display:inline;
+	background-color: $dark;
+	width: 100%;
+	z-index: 100;
+	color: #3CA2A2;
 }
 
 .content-panel {
@@ -460,6 +477,7 @@ ul {
 	}
 
 	p {
+		text-align: justify;
 		margin-bottom: 10px;
 
 		@media (min-width: $screen-sm-min) {
@@ -566,7 +584,6 @@ ul {
 			padding-right: 15px;
 			padding-top: 10px;
 			padding-bottom: 10px;
-			text-align: justify;
 
 			@media (min-width: $screen-sm-min) {
 				font-size: 24px;
@@ -905,10 +922,11 @@ figure a img {
 	padding: 0px !important;
 }
 
-figcaption {
+figcaption, legend {
 	text-align: center;
     left: 0;
     font-weight: 400;
     font-size: 14px;
     color: #666665;
+    border: none
 }

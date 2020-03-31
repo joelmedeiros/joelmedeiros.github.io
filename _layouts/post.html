@@ -8,7 +8,9 @@ layout: default
   {% assign minutes = content | number_of_words | divided_by: 180 %}
   {% if minutes == 0 %}{% assign minutes = 1 %}{% endif %}
 {% endif %}
-
+<div class="menu-header">
+  <div class="menu-title"><a href="/">{{ site.title }}</a></div>  
+</div>
 <div class="container-fluid single">
   <div class="row">
 

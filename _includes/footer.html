@@ -15,10 +15,10 @@
 <script type="text/javascript">
    $(document).ready(function() {
       $("#my-menu").mmenu().on( "closed.mm", function() {
-            $(".menu-button").show();
+            $(".menu-button, .menu-title").show();
          });
       $(".menu-button").click(function() {
-        $(".menu-button").hide();
+        $(".menu-button, .menu-title").hide();
         $("#my-menu").trigger("open.mm");
       });
    });
