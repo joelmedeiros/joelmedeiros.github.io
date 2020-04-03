@@ -31,3 +31,6 @@ Gemfile.lock
 
 # IntellJ
 .idea/
+
+#vscode
+.vscode
