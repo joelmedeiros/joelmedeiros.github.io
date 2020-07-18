@@ -544,8 +544,8 @@ ul {
 		}
 
 		@media (min-width: $screen-lg-min) {
-			width: 50%;
-			margin-left: 25%;
+			width: 80%;
+			margin-left: 12.5%;
 		}
 
 		.thumb {
@@ -584,14 +584,6 @@ ul {
 			padding-right: 15px;
 			padding-top: 10px;
 			padding-bottom: 10px;
-
-			@media (min-width: $screen-sm-min) {
-				font-size: 24px;
-				padding-left: 30px;
-				padding-right: 30px;
-				padding-top: 40px;
-				padding-bottom: 20px;
-			}
 
 			.series {
 				margin-bottom: 50px;
