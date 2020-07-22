@@ -2,7 +2,6 @@
 layout:     post
 title:      What's the PHP role in IoT?
 author:     Joel Medeiros
-date:       2020-06-18
 summary:    
 categories: php
 thumbnail:  
@@ -34,7 +33,7 @@ All of these data will be stored in the second level of this ecosystem, *storing
 
 # What Internet of Things does?
 
-
+sadsdaasddsa 
 # What is the difference between automation and IoT?
 
 
