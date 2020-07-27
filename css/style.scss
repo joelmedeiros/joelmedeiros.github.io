@@ -32,6 +32,7 @@ $red:            #C04848;
 $orange:         #F07241;
 
 /* Responsive sizes */
+$screen-xs-min: 320px;
 $screen-sm-min: 768px;
 $screen-md-min: 992px;
 $screen-lg-min: 1200px;
@@ -99,12 +100,11 @@ ul {
 .header {
 	font-size: 32px;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 75px;
 	margin-left: -0%;
 	width: 100%;
 
 	@media (min-width: $screen-sm-min) {
-		font-size: 62px;
 		margin-left: -10%;
 		width: 120%;
 	}
@@ -113,8 +113,12 @@ ul {
 .menu-header {
 	position: fixed;
     top: 15px;
-    width: 200px;
-    left: 45%;
+    width: 400px;
+	left: 40%;
+	
+	@media screen and (min-width: $screen-xs-min), screen and (max-width: $screen-sm-min) {
+		left: 20%;
+	}
 }
 
 .menu-button {
@@ -134,15 +138,18 @@ ul {
 .menu-title {
 	font-family: 'Montserrat', sans-serif;;
 	color: $white;
-	font-size: 24px;
+	font-size: 48px;
 	cursor: pointer;
 	line-height: 1em;
 	padding: 10px;
 	display:inline;
 	background-color: $dark;
-	width: 100%;
 	z-index: 100;
 	color: #3CA2A2;
+
+	@media (min-width: $screen-xs-min) {
+		font-size: 32px;
+	}
 }
 
 .content-panel {
