@@ -41,6 +41,19 @@ Based on these rules, we can determine when we turn on/off the red signal during
 Of course, it is not too simple as I am describing, Data Analysis software and AI will need tons of data and a bunch of trainings to achieve this kind of result, it is just an example to understand how we can manipulate data.
  
 # What is the difference between automation and IoT?
+To define the difference between automation and Iot, we need to understand what is automation, a quick definition is, 
+
+> "Automation is the application of technology, programs, robotics or processes to achieve outcomes with minimal human input" 
+- (IBM)[https://www.ibm.com/topics/automation]
+
+With that said, I would like to add to this article that automation also need an human input in the beginning and also it does not expect any changes while it is being processed, which means, that this process will always happen independently of external factors even if it is no longer needed. Like the semaphore example,
+
+<figure style="text-align: center">
+  <a href="/assets/images/posts/what-is-the-PHP-role-in-IoT/flowchart-annotation-engine.jpeg" target="_blank">
+    <img src="/assets/images/posts/what-is-the-PHP-role-in-IoT/flowchart-annotation-engine.jpeg" alt="How an annotation engine works" />
+  </a>
+  <figcaption>How an annotation engine works</figcaption>
+</figure>
 
 # What about PHP?
 
